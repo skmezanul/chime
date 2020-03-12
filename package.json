@@ -23,7 +23,7 @@
   "homepage": "https://github.com/hankfanchiu/chime#readme",
   "dependencies": {
     "babel-core": "^6.3.17",
-    "babel-loader": "^6.2.0",
+    "babel-loader": "^7.1.0",
     "babel-preset-react": "^6.3.13",
     "flux": "^2.1.1",
     "history": "^1.17.0",
