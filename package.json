@@ -8,7 +8,9 @@
     "test": "test"
   },
   "scripts": {
-    "postinstall": "./node_modules/.bin/webpack"
+    "postinstall": "./node_modules/.bin/webpack",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -34,11 +36,13 @@
     "react-bootstrap": "^0.28.1",
     "react-dom": "^0.14.3",
     "react-router": "^1.0.3",
-    "webpack": "^1.12.9"
+    "webpack": "^1.12.9",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {},
   "engines": {
     "node": "4.1.1",
     "npm": "2.1.x"
-  }
+  },
+  "snyk": true
 }
