@@ -17,7 +17,7 @@ gem 'puma'
 gem 'rails_12factor', group: :production
 gem 'newrelic_rpm'
 gem 'rack-timeout'
-gem 'rmagick'
+gem 'rmagick', '>= 5.3.0'
 gem 'aws-sdk'
 
 # Paperclip to handle pass-through image uploads.
