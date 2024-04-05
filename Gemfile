@@ -2,17 +2,17 @@ source 'https://rubygems.org'
 
 ruby '2.1.2'
 
-gem 'rails', '4.2.4'
+gem 'rails', '7.0.8.1'
 gem 'pry-rails'
 gem 'pg'
 gem 'bcrypt', require: 'bcrypt'
 gem 'friendly_id'
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 5.0', '>= 5.0.8'
 gem 'bootstrap-sass'
 gem 'uglifier', '>= 1.3.0'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.1.0'
 gem 'jbuilder', '~> 2.0'
-gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'sdoc', '~> 1.0.0', group: :doc
 gem 'puma'
 gem 'rails_12factor', group: :production
 gem 'newrelic_rpm'
@@ -31,10 +31,10 @@ group :development, :test do
 end
 
 group :development do
-  gem 'web-console', '~> 2.0'
+  gem 'web-console', '~> 2.3', '>= 2.3.0'
   gem 'binding_of_caller'
-  gem 'better_errors'
+  gem 'better_errors', '>= 2.2.0'
   gem 'annotate'
-  gem 'dotenv-rails'
+  gem 'dotenv-rails', '>= 2.7.6'
   gem 'spring'
 end
