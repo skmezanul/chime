@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.1.2'
 
-gem 'rails', '4.2.4'
+gem 'rails', '5.2.8.1'
 gem 'pry-rails'
 gem 'pg'
 gem 'bcrypt', require: 'bcrypt'
@@ -34,7 +34,7 @@ group :development do
   gem 'web-console', '~> 2.0'
   gem 'binding_of_caller'
   gem 'better_errors'
-  gem 'annotate'
+  gem 'annotate', '>= 2.7.0'
   gem 'dotenv-rails'
   gem 'spring'
 end
