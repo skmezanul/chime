@@ -7,7 +7,7 @@ gem 'pry-rails'
 gem 'pg'
 gem 'bcrypt', require: 'bcrypt'
 gem 'friendly_id'
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 5.0', '>= 5.0.4'
 gem 'bootstrap-sass'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
@@ -31,7 +31,7 @@ group :development, :test do
 end
 
 group :development do
-  gem 'web-console', '~> 2.0'
+  gem 'web-console', '~> 2.2', '>= 2.2.1'
   gem 'binding_of_caller'
   gem 'better_errors'
   gem 'annotate'
