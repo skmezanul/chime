@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.1.2'
 
-gem 'rails', '4.2.4'
+gem 'rails', '5.2.8.1'
 gem 'pry-rails'
 gem 'pg'
 gem 'bcrypt', require: 'bcrypt'
