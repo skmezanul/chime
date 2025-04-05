@@ -12,7 +12,7 @@ gem 'bootstrap-sass'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
-gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'sdoc', '~> 1.0.0', group: :doc
 gem 'puma'
 gem 'rails_12factor', group: :production
 gem 'newrelic_rpm'
