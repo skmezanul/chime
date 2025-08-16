@@ -2,11 +2,11 @@ source 'https://rubygems.org'
 
 ruby '2.1.2'
 
-gem 'rails', '4.2.4'
+gem 'rails', '7.1.5.2'
 gem 'pry-rails'
 gem 'pg'
 gem 'bcrypt', require: 'bcrypt'
-gem 'friendly_id'
+gem 'friendly_id', '>= 5.2.0'
 gem 'sass-rails', '~> 5.0'
 gem 'bootstrap-sass'
 gem 'uglifier', '>= 1.3.0'
@@ -34,7 +34,7 @@ group :development do
   gem 'web-console', '~> 2.0'
   gem 'binding_of_caller'
   gem 'better_errors'
-  gem 'annotate'
+  gem 'annotate', '>= 3.2.0'
   gem 'dotenv-rails'
   gem 'spring'
 end
